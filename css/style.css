@@ -331,8 +331,9 @@ a.proj-button {
 
 
 .d-block{
-    height: 30em;
-    width: auto;
+    /* height: 8em;
+    width: auto; */
+    width: 90%;
     object-fit: cover;
     object-position: center;
 }
