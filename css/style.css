@@ -296,9 +296,9 @@ footer {
 
 
 a.proj-button {
-    background: #5E5DF0;
+    background: #035AA6;
     border-radius: 50px;
-    box-shadow: #5E5DF0 0 10px 10px -10px;
+    box-shadow: #035AA6 0 10px 10px -10px;
     box-sizing: border-box;
     color: #FFFFFF !important; 
     cursor: pointer;
@@ -318,7 +318,7 @@ a.proj-button {
   }
 
 .proj-button:hover{
-    background: #4b4bd8;
+    background: #223A59;
 }
 
 .button-flex{
