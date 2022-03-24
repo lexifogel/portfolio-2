@@ -334,6 +334,7 @@ a.proj-button {
     /* height: 8em;
     width: auto; */
     width: 90%;
+    height: auto;
     object-fit: cover;
     object-position: center;
 }
