@@ -59,7 +59,7 @@ p {
 }
 
 ul, li {
-    line-height: 1.35;
+    line-height: 1.5;
     margin-left: 1em;
 }
 
@@ -250,6 +250,10 @@ footer {
     font-weight: 800;
 }
 
+/* .italic {
+    font-style: italic;
+} */
+
 .proj-main{
     margin-top: 3.5em;
     margin-left: 5%;
@@ -346,6 +350,10 @@ a.proj-button {
 .carousel-indicators {
     margin-top: 4em;
     margin-bottom: 0px;
+}
+
+.takeaways {
+    margin-bottom: 10px;
 }
 
 /* fixing button issue on mobile (i hope) */
