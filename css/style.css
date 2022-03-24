@@ -52,7 +52,6 @@ h4 {
 
 p {
     line-height: 1.15;
-    margin: .5em;
     margin-bottom: 1em;
 }
 
@@ -86,6 +85,13 @@ a {
     color: #223A59;
 }
 
+
+
+/* fix */
+.navbar-light .navbar-brand:hover {
+    color: #223A59;
+    margin-left: .5em;
+}
 .navbar-light .navbar-nav:hover{
     color: #223A59;
 }
@@ -97,6 +103,8 @@ a {
 .navbar-collapse{
     justify-content: flex-end;
 }
+/* ^^^ */
+
 
 
 /* fixed pic issue vv */
@@ -117,9 +125,12 @@ footer {
     margin-top: 1em;
 }
 
-
+.main-icons {
+    margin: 1em;
+}
 
 /* end standard formatting -- all pages */
+
 
 
 #page-container {
@@ -197,10 +208,145 @@ footer {
 }
 
 .job img {
-    width: 40%;
+    width: 30%;
 }
 
 /* end work */
+
+/* Project page */
+
+.proj-header{
+    text-align: center;
+}
+
+/* .proj-header img{
+    width: 75%;
+    margin: 0;
+    margin-bottom: 1em;
+} */
+
+.proj-desc {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.span-1 {
+    width: 70%;
+    margin: auto;
+}
+
+.span-2 {
+    width: 70%;
+    margin: auto;
+    /* margin-left: 40px; */
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.proj-main{
+    margin-top: 3.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.proj-section {
+    margin: 1.5em 0;
+    margin-bottom: 2em;
+}
+
+.proj-section img {
+    margin: 2em 0;
+    /* doesn't center */
+}
+
+/* .proj-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+} */
+
+.project {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 40px 0px 30px 0px;
+}
+
+.project img{
+    width: 40%;
+}
+
+.proj-info {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.proj-summary {
+    margin-bottom: 2em;
+}
+
+
+a.proj-button {
+    background: #5E5DF0;
+    border-radius: 50px;
+    box-shadow: #5E5DF0 0 10px 10px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF !important; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 20px;
+  }
+
+.proj-button:hover{
+    background: #4b4bd8;
+}
+
+.button-flex{
+    margin-bottom: 25px;
+}
+
+.button-flex .proj-button{
+    margin-right: 5px;
+}
+
+
+.d-block{
+    height: 30em;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item{
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.carousel-indicators{
+    margin-top: 4em;
+    margin-bottom: 0px;
+}
+
 
 
 
