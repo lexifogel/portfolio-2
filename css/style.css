@@ -254,6 +254,9 @@ footer {
     font-style: italic;
 }
 
+
+/* 422 Navigation project page */
+
 .proj-main{
     margin-top: 3.5em;
     margin-left: 5%;
@@ -280,7 +283,7 @@ footer {
 
 .project {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     margin: 40px 0px 30px 0px;
 }
@@ -356,9 +359,43 @@ a.proj-button {
     margin-bottom: 10px;
 }
 
-#khourabia {
-    margin-bottom: 1em;
+
+/* 320 Art works page */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.work-info {
+    text-align: center;
+}
+
+.work-software {
+    font-size: .75em;
+}
+
+.work img {
+    width: 30%;
+}
+
+#khourabia {
+    margin-top: 1em;
+}
+
+#soups {
+    width: 85%;
+}
+
+#damascus {
+    width: 60%;
+}
+
+
+
 
 /* fixing button issue on mobile (i hope) */
 @media screen and (max-width: 443px) {
@@ -377,8 +414,6 @@ a.proj-button {
 @media screen and (min-width: 760px) {
 
     /* Work page */
-
-
     .job {
         display: flex;
         flex-direction: row-reverse;
@@ -397,8 +432,55 @@ a.proj-button {
         margin-right: 1em;
     }
 
+    /* Projects page */
+    .project {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .proj-info{
+        /* text-align: left; */
+        width: 80%;
+    }
+    
+    .proj img {
+        width: 20%;
+        margin-right: 1em;
+    }
+
+    /* 320 Page */
+    .work {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+    }
+    
+    .work-info{
+        text-align: left;
+        width: 50%;
+        margin-left: .5em;
+    }
+    
+    .work img {
+        width: 20%;
+        margin-right: 1em;
+    }
+
     #khourabia {
-        margin-bottom: 0;
+        margin-right: 2em;
+    }
+    
+    #soups {
+        width: 40%;
+    }
+    
+    #damascus {
+        width: 25%;
+    }
+    
+    #khourabia, #soups, #damascus {
+        margin-left: 2em;
     }
 
 }
